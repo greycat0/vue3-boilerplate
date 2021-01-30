@@ -1,5 +1,5 @@
 <template>
-  <div>1{{ a }}</div>
+  <div>{{ a }}</div>
 </template>
 
 <script lang="ts">
@@ -8,5 +8,4 @@ import { Options, Vue } from "vue-class-component";
 export default class extends Vue {
   a: Number = 123;
 }
-// export default {}
 </script>
